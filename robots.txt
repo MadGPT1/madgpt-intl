@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://madgpt1.github.io/madgpt-intl/sitemap.xml
