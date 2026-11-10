@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="pt-BR" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Agente de programação com IA para VS Code: MadGPT Coder</title>
+<meta name="description" content="O MadGPT Coder leva o Agent Mode ao VS Code: lê e altera arquivos em todo o repositório, revisa a segurança e refatora código antigo.">
+<link rel="canonical" href="https://madgpt1.github.io/madgpt-intl/pt/vscode-ai-agent.html">
+<link rel="alternate" hreflang="hi" href="https://madgpt1.github.io/madgpt-intl/hi/vscode-ai-agent.html">
+<link rel="alternate" hreflang="zh-Hans" href="https://madgpt1.github.io/madgpt-intl/zh/vscode-ai-agent.html">
+<link rel="alternate" hreflang="ar" href="https://madgpt1.github.io/madgpt-intl/ar/vscode-ai-agent.html">
+<link rel="alternate" hreflang="es" href="https://madgpt1.github.io/madgpt-intl/es/vscode-ai-agent.html">
+<link rel="alternate" hreflang="pt-BR" href="https://madgpt1.github.io/madgpt-intl/pt/vscode-ai-agent.html">
+<link rel="alternate" hreflang="id" href="https://madgpt1.github.io/madgpt-intl/id/vscode-ai-agent.html">
+<link rel="alternate" hreflang="tr" href="https://madgpt1.github.io/madgpt-intl/tr/vscode-ai-agent.html">
+<link rel="alternate" hreflang="vi" href="https://madgpt1.github.io/madgpt-intl/vi/vscode-ai-agent.html">
+<link rel="alternate" hreflang="x-default" href="https://madgpt.io">
+<meta property="og:title" content="Agente de programação com IA para VS Code: MadGPT Coder">
+<meta property="og:description" content="O MadGPT Coder leva o Agent Mode ao VS Code: lê e altera arquivos em todo o repositório, revisa a segurança e refatora código antigo.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://madgpt1.github.io/madgpt-intl/pt/vscode-ai-agent.html">
+<style>*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:#0a0810;color:#eceef5;font:17px/1.7 -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Noto Sans',Arial,sans-serif;
+ background-image:radial-gradient(60% 50% at 50% 0%,rgba(150,24,38,.45),rgba(150,24,38,0) 70%)}
+.wrap{max-width:760px;margin:0 auto;padding:28px 20px 80px}
+header{display:flex;align-items:center;gap:12px;padding:18px 0;border-bottom:1px solid rgba(255,255,255,.08);margin-bottom:28px;flex-wrap:wrap}
+.logo{font-weight:800;letter-spacing:.5px;font-size:20px}
+.logo b{color:#ff2a40}
+.tag{color:#a7a9b4;font-size:14px;flex:1;min-width:200px}
+.langs{display:flex;gap:8px;font-size:14px;flex-wrap:wrap;flex-basis:100%}
+.langs a{color:#a7a9b4;text-decoration:none;border:1px solid rgba(255,255,255,.14);padding:4px 10px;border-radius:20px}
+.langs a:hover,.langs a.on{color:#fff;border-color:#ff2a40}
+h1{font-size:34px;line-height:1.25;margin:10px 0 8px}
+h2{font-size:22px;margin:34px 0 10px;color:#fff}
+.intro{color:#c9ccd6;font-size:19px}
+ul{padding-inline-start:22px}li{margin:8px 0}
+.cta{display:flex;gap:12px;flex-wrap:wrap;margin:30px 0}
+.btn{display:inline-block;text-decoration:none;font-weight:700;padding:14px 22px;border-radius:12px}
+.btn.p{background:#ff2a40;color:#fff}
+.btn.s{background:transparent;color:#fff;border:1px solid rgba(255,255,255,.25)}
+.faq{margin-top:30px;border-top:1px solid rgba(255,255,255,.08);padding-top:18px}
+.faq h3{margin:16px 0 4px;font-size:17px}
+.faq p{margin:0 0 10px;color:#c9ccd6}
+.also{margin-top:40px;border-top:1px solid rgba(255,255,255,.08);padding-top:18px}
+.also a{color:#ff6b7d;display:block;margin:8px 0;text-decoration:none}
+.also a:hover{text-decoration:underline}
+footer{margin-top:50px;color:#6d6f7a;font-size:13px}
+footer a{color:#a7a9b4}
+[dir=rtl] ul{padding-inline-start:0;padding-inline-end:22px}
+a{color:#ff6b7d}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+<div class="logo">Mad<b>GPT</b></div>
+<div class="tag">7 modelos de IA em um só chat: respostas diretas, modo sem censura e agente para VS Code.</div>
+<nav class="langs"><a class="" href="../hi/vscode-ai-agent.html">हिन्दी</a><a class="" href="../zh/vscode-ai-agent.html">中文</a><a class="" href="../ar/vscode-ai-agent.html">العربية</a><a class="" href="../es/vscode-ai-agent.html">Español</a><a class="on" href="../pt/vscode-ai-agent.html">Português</a><a class="" href="../id/vscode-ai-agent.html">Indonesia</a><a class="" href="../tr/vscode-ai-agent.html">Türkçe</a><a class="" href="../vi/vscode-ai-agent.html">Tiếng Việt</a></nav>
+</header>
+<main>
+<h1>Um agente de IA para VS Code que trabalha no repositório inteiro</h1>
+<p class="intro">Existem muitos assistentes de código, mas a maioria fica em uma função. O Agent Mode do MadGPT Coder olha o projeto inteiro: monta um plano, lê os arquivos e faz as alterações.</p>
+<h2>O que ele faz</h2>
+<ul><li><b>Primeiro o plano, depois o código.</b> Antes ele explica quais arquivos vai mudar e por quê.</li><li><b>Alterações em todo o repositório.</b> Vários arquivos de uma vez dentro da mesma tarefa.</li><li><b>Revisão de segurança e refatoração.</b> Encontra bugs, audita e limpa código antigo.</li><li><b>Várias chaves de API, cada uma com limite diário.</b> Dê acesso à equipe sem compartilhar sua conta.</li></ul>
+<h2>Como começar</h2>
+<ul><li>Instale a extensão no VS Code, informe sua chave do MadGPT e descreva a tarefa em palavras simples. O agente faz o resto dentro do editor. O Agent Mode está incluído no plano Lifetime.</li></ul>
+
+<div class="cta">
+<a class="btn p" href="https://madgpt.io" rel="noopener">Teste grátis</a>
+<a class="btn s" href="https://t.me/madgptAI_bot" rel="noopener">Teste no bot do Telegram</a>
+</div>
+<div class="faq"><h2>Perguntas frequentes</h2><h3>Ele lê meu repositório inteiro?</h3><p>Sim, o Agent Mode trabalha entre arquivos, não em uma única linha.</p><h3>Dá conta de projetos grandes?</h3><p>Sim, ele lembra a estrutura de sessões longas e de bases de código grandes.</p></div>
+<div class="also"><h2>Leia também</h2><a href="chatgpt-alternative.html">Alternativa ao ChatGPT →</a><a href="uncensored-ai.html">IA sem censura →</a><a href="claude-alternative.html">Alternativa ao Claude →</a><a href="gemini-alternative.html">Alternativa ao Gemini →</a><a href="grok-alternative.html">Alternativa ao Grok →</a><a href="copilot-alternative.html">Alternativa ao GitHub Copilot →</a></div>
+</main>
+<footer>
+<a href="../index.html">Todos os idiomas</a> · <a href="https://madgpt.io">madgpt.io</a>
+</footer>
+</div>
+</body>
+</html>
